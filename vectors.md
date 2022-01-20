@@ -2,11 +2,17 @@
 
 ### Objetivo de la Unidad
 
-### Subtemas
+Dominar el concepto de vector y sus operaciones, así como su uso para dibujar y
+simular movimiento.
 
-1. Concepto de vector
-2. Operaciones básicas
-3. Dibujando con vectores
-4. Lineas
-5. Vectores describiendo movimiento
-6. Vectores en 3D
+### Concepto de vector
+
+### Operaciones básicas
+
+### Dibujando con vectores
+
+### Lineas
+
+### Vectores describiendo movimiento
+
+### Vectores en 3D

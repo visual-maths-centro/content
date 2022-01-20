@@ -2,8 +2,11 @@
 
 ### Objetivo de la Unidad
 
-### Subtemas
+Repasar los conceptos básicos del álgebra que serán útiles para el resto del
+curso, ademas de ejercitar las habilidades de programación.
 
-1. ¿Que es el álgebra?
-2. Operaciones aritméticas y sus propiedades
-3. Ecuaciones de primer grado
+### ¿Que es el álgebra?
+
+### Operaciones aritméticas y sus propiedades
+
+### Ecuaciones de primer grado
