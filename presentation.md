@@ -1,10 +1,10 @@
 # Presentación del curso
 
-## Objetivo General
+### Objetivo General
 
 Que el alumno construya un conjunto de herramientas conceptuales, basadas en algunos conceptos matemáticos, que le permitan crear dinámicas y procesos algorítmicos dentro del marco del diseño multimedia.
 
-## Introducción
+### Introducción
 
 Existen dos clichés acerca del aprendizaje de las matemáticas: “son difíciles y aburridas” y “es un mundo separado de la creatividad”. Mientras que lo primero es una opinión subjetiva que depende de condiciones personales; lo segundo es una total falsedad. Todas las áreas que llamamos multimedia: animación, diseño interactivo, arte generativo, etc, están apoyadas intrínsecamente en las Matemáticas. Es común que quien quiera profundizar en estas áreas halle la frustración de no sentirse capaz de entender los aspectos técnicos subyacentes, y caer en el primer cliché.
 
@@ -12,19 +12,19 @@ Aunque es verdad que existen campos de las Matemáticas que están alejados del 
 
 Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entenderemos las motivaciones que existen desde las áreas creativas para acercarnos a las Matemáticas, después revisaremos la teoría necesaria y por último la implementación en código.
 
-## Temas y sub-temas
+### Temas y sub-temas
 
-1. Introducción
+1. [Introducción](introduction.md)
    1. Todo es un número
    2. Calcular y computar
    3. ¿Qué se necesita aprender?
    4. Git
    5. Fundamentos de la programación
-2. Álgebra
+2. [Álgebra](algebra.md)
    1. ¿Que es el álgebra?
    2. Operaciones aritméticas y sus propiedades
    3. Ecuaciones de primer grado
-3. Vectores
+3. [Vectores](vectors.md)
    1. Concepto de vector
    2. Operaciones básicas
    3. Dibujando con vectores
@@ -59,9 +59,9 @@ Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entender
 
 \* Solo se elige un tema dependiendo del curso.
 
-## Bibliografía
+### Bibliografía
 
-### Libros
+#### Libros
 
 - Vince J. _Mathematics for Computer Graphics_. Springer. 2006.
 - Shiffman D. _The nature of code_. The magic book project. 2012.
@@ -69,7 +69,7 @@ Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entender
 - Dunn F, Ian Parberry. _3D math prime for graphics and game development_. Wordware. 2002.
 - Bohnacker H., Groß B., Laub J. _Generative design: visualize, program and create with Processing_. Princeton Architectural Press. 2012
 
-### Web y videos
+#### Web y videos
 
 - [Material Nivel Basico](https://openstax.org/subjects)
 - [Iñigo Quilez](https://www.youtube.com/channel/UCdmAhiG8HQDlz8uyekw4ENw)
