@@ -15,11 +15,12 @@ Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entender
 ### Temas y sub-temas
 
 1. [Introducción](introduction.md)
-   1. Todo es un número
-   2. Calcular y computar
+   1. ¿Las matemáticas son difíciles?
+   2. ¿Las matemáticas ayudan a expresar ideas?
    3. ¿Qué se necesita aprender?
    4. Git
    5. Fundamentos de la programación
+   6. Calcular y computar
 2. [Álgebra](algebra.md)
    1. ¿Que es el álgebra?
    2. Operaciones aritméticas y sus propiedades
@@ -33,7 +34,7 @@ Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entender
    6. Vectores en 3D
 4. Trigonometría
    1. Radianes
-   2. Funciones trigonometricas
+   2. Funciones trigonométricas
    3. ¿Cómo dibujar un circulo?
    4. Oscilaciones
    5. ¿Cómo dibujar una esfera?
