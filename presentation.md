@@ -20,7 +20,6 @@ Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entender
    3. ¿Qué se necesita aprender?
    4. Git
    5. Fundamentos de la programación
-   6. Calcular y computar
 2. [Álgebra](algebra.md)
    1. ¿Que es el álgebra?
    2. Operaciones aritméticas y sus propiedades

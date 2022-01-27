@@ -57,5 +57,3 @@ Leer el artículo [_Mathematics for Computer Graphics_](https://faculty.cc.gatec
 ### Fundamentos de la programación
 
 Ver [aquí](fundamentals.md).
-
-### Calcular y computar
