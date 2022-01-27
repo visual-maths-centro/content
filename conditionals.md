@@ -55,4 +55,56 @@ Donde _A_ es la **condición** y siempre es una expresión booleana. Mientras qu
 
 Si vemos esto como un diagrama de flujo:
 
-![Simple conditional](img/simple_conditional.svg)
+<img src="img/simple_conditional.svg" alt="Simple conditional" width="250"/>
+
+En sintaxis de Javascript se escribiría como:
+
+```js
+if (A) {
+  // B
+}
+```
+
+#### Ejemplos
+
+```js
+let a = 10;
+if (a > 3) {
+  console.log('La variable a es mayor que 3');
+}
+
+let b = 20;
+if (a + 10 === b) {
+  console.log('Es cierto');
+}
+
+if (b < a>) {
+  console.log('b es menor que a');
+}
+```
+
+```js
+let x = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(255);
+
+  ellipse(x, 200, 20, 20);
+
+  x = x + 10;
+  if (x > width) {
+    x = 0;
+  }
+}
+```
+
+<iframe
+  src="https://codesandbox.io/embed/new?codemirror=1"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
