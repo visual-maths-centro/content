@@ -55,7 +55,7 @@ Donde _A_ es la **condición** y siempre es una expresión booleana. Mientras qu
 
 Si vemos esto como un diagrama de flujo:
 
-<img src="img/simple_conditional.svg" alt="Simple conditional" width="250"/>
+<img src="img/simple_conditional.svg" alt="Simple conditional" height="400"/>
 
 En sintaxis de Javascript se escribiría como:
 
@@ -96,7 +96,10 @@ function draw() {
   ellipse(x, 200, 20, 20);
 
   x = x + 4;
+
+  // Si x es mayor que el ancho
   if (x > width) {
+    // x regresa al cero
     x = 0;
   }
 }
@@ -116,7 +119,17 @@ Donde _C_ es el bloque de instrucciones que se ejecutará si _A_ es falso.
 
 Si vemos esto como un diagrama de flujo:
 
-<img src="img/conditional_complete.svg" alt="Simple conditional" width="250"/>
+<img src="img/conditional_complete.svg" alt="Simple conditional" height="400" />
+
+Para contemplar el caso falso, usaremos la sintaxis `else`, que significa en inglés _"en otro caso"_ o _"de otra manera"_. La palabra `else` se debe de poner después de cerrar el bloque del `if`, e inaugura un nuevo bloque.
+
+```js
+if (A) {
+  // B
+} else {
+  // C
+}
+```
 
 #### Ejemplos
 
@@ -141,17 +154,19 @@ function setup() {
 function draw() {
   background(220);
 
+  // Si x es menor que la mitad de la pantalla
+  if (x < width * 0.5) {
+    fill(255, 0, 0); // Entonces dibuja de rojo
+  } else {
+    fill(0, 0, 255); // En otro caso dibuja de azul
+  }
+
   ellipse(x, 300, 20, 20);
 
   x = x + 2;
+
   if (x > width) {
     x = 0;
-  }
-
-  if (x < width * 0.5) {
-    fill(255, 0, 0);
-  } else {
-    fill(0, 0, 255);
   }
 }
 ```
