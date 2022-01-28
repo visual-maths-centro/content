@@ -95,16 +95,65 @@ function draw() {
 
   ellipse(x, 200, 20, 20);
 
-  x = x + 10;
+  x = x + 4;
   if (x > width) {
     x = 0;
   }
 }
 ```
 
-<iframe
-  src="https://codesandbox.io/embed/new?codemirror=1"
-  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+Puedes ver el resultado de este ejemplo [aquí](https://codesandbox.io/s/conditionals-1-ieeu4?file=/sketch.js).
+
+### Condicional completa
+
+La condicional simple solo ejecuta el código que hayamos puesto entre las llaves si la condición es cierta. Pero que tal que queremos también cubrir el caso en el que sea falsa.
+
+Para eso usaremos la condicional completa, que se lee de la siguiente forma:
+
+> Si es cierto que _A_, entonces ejecuta _B_. En otro caso, ejecuta _C_.
+
+Donde _C_ es el bloque de instrucciones que se ejecutará si _A_ es falso.
+
+Si vemos esto como un diagrama de flujo:
+
+<img src="img/conditional_complete.svg" alt="Simple conditional" width="250"/>
+
+#### Ejemplos
+
+```js
+let myName = 'Diego';
+
+if (myName === 'Ana') {
+  console.log('Te llamas Ana');
+} else {
+  console.log('No te llamas Ana');
+}
+```
+
+```js
+let x = 0;
+
+function setup() {
+  createCanvas(600, 600);
+  noStroke();
+}
+
+function draw() {
+  background(220);
+
+  ellipse(x, 300, 20, 20);
+
+  x = x + 2;
+  if (x > width) {
+    x = 0;
+  }
+
+  if (x < width * 0.5) {
+    fill(255, 0, 0);
+  } else {
+    fill(0, 0, 255);
+  }
+}
+```
+
+Puedes ver el resultado de este ejemplo [aquí](https://codesandbox.io/s/conditional-complete-06qt6?file=/sketch.js).
