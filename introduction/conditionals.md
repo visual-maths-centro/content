@@ -57,6 +57,8 @@ Si vemos esto como un diagrama de flujo:
 
 <img src="../img/conditionals/simple_conditional.svg" alt="Simple conditional" height="400"/>
 
+#### Sintaxis
+
 En sintaxis de Javascript se escribiría como:
 
 ```js
@@ -111,7 +113,7 @@ Puedes ver el resultado de este ejemplo [aquí](https://codesandbox.io/s/conditi
 
 La condicional simple solo ejecuta el código que hayamos puesto entre las llaves si la condición es cierta. Pero que tal que queremos también cubrir el caso en el que sea falsa.
 
-Para eso usaremos la condicional completa, que se lee de la siguiente forma:
+Para eso usaremos la **condicional completa**, que se lee de la siguiente forma:
 
 > Si es cierto que _A_, entonces ejecuta _B_. En otro caso, ejecuta _C_.
 
@@ -120,6 +122,8 @@ Donde _C_ es el bloque de instrucciones que se ejecutará si _A_ es falso.
 Si vemos esto como un diagrama de flujo:
 
 <img src="../img/conditionals/conditional_complete.svg" alt="Simple conditional" height="400" />
+
+#### Sintaxis
 
 Para contemplar el caso falso, usaremos la sintaxis `else`, que significa en inglés _"en otro caso"_ o _"de otra manera"_. La palabra `else` se debe de poner después de cerrar el bloque del `if`, e inaugura un nuevo bloque.
 
@@ -172,3 +176,92 @@ function draw() {
 ```
 
 Puedes ver el resultado de este ejemplo [aquí](https://codesandbox.io/s/conditional-complete-06qt6?file=/sketch.js).
+
+### Condicional múltiple
+
+Supongamos que necesitamos analizar mas de una condicional. Es decir, si una condicional falla, queremos evaluar otra. Podemos pensar que "encadenamos" las condicionales.
+
+Lógicas que tienen la siguiente forma:
+
+> Si es cierto que _A_, entonces ejecuta _B_. Si no, pero pasa _C_, ejecuta _D_.
+
+A esto lo llamamos **condicional múltiple**, y podemos observalo en el siguiente diagrama de flujo.
+
+<img src="../img/conditionals/multiple_conditional.svg" alt="Multiple conditional" height="550" />
+
+#### Sintaxis
+
+Para hacer las demás condicionales usamos la palabra `else if`, seguida de otra condicional:
+
+```js
+if (A) {
+  // B
+} else if (C) {
+  // D
+}
+```
+
+El segundo `if` actúa como el primero, por lo que podemos añadir un `else` para que quede cubierto el caso en el que _C_ sea falso.
+
+```js
+if (A) {
+  // B
+} else if (C) {
+  // D
+} else {
+  // E
+}
+```
+
+El diagrama de flujo de este último ejemplo es:
+
+<img src="../img/conditionals/multiple_conditional_b.svg" alt="Multiple conditional" height="550" />
+
+La condicional múltiple permite evaluar muchos posibles valores o casos.
+
+#### Ejemplos
+
+```js
+let myAge = 20;
+
+if (myAge >= 21) {
+  console.log('You can drink');
+} else if (myAge >= 16) {
+  console.log('You can drive');
+}
+```
+
+```js
+function setup() {
+  createCanvas(600, 600);
+  rectMode(CENTER);
+}
+
+function draw() {
+  background(200);
+
+  stroke(0);
+  line(200, 0, 200, height);
+  line(400, 0, 400, height);
+
+  noStroke();
+
+  // Si el mouseX esta en el primer tercio
+  if (mouseX <= 200) {
+    fill(255, 0, 0);
+    rect(300, 300, 150, 150);
+  }
+  // Si el mouseX esta en el segundo tercio
+  else if (mouseX <= 400) {
+    fill(23, 125, 21);
+    ellipse(300, 300, 150, 150);
+  }
+  // El mouseX esta en el tercer cuadrante (porque no esta en el 1ero ni en el 2do)
+  else {
+    fill(0, 0, 255);
+    triangle(300, 225, 375, 375, 225, 375);
+  }
+}
+```
+
+Puedes ver el resultado de este ejemplo [aquí](https://codesandbox.io/s/multiple-conditional-vzlfo?file=/sketch.js).
