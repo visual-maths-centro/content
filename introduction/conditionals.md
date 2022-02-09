@@ -55,7 +55,7 @@ Donde _A_ es la **condición** y siempre es una expresión booleana. Mientras qu
 
 Si vemos esto como un diagrama de flujo:
 
-<img src="img/conditionals/simple_conditional.svg" alt="Simple conditional" height="400"/>
+<img src="../img/conditionals/simple_conditional.svg" alt="Simple conditional" height="400"/>
 
 En sintaxis de Javascript se escribiría como:
 
@@ -119,7 +119,7 @@ Donde _C_ es el bloque de instrucciones que se ejecutará si _A_ es falso.
 
 Si vemos esto como un diagrama de flujo:
 
-<img src="img/conditional_complete.svg" alt="Simple conditional" height="400" />
+<img src="../img/conditionals/conditional_complete.svg" alt="Simple conditional" height="400" />
 
 Para contemplar el caso falso, usaremos la sintaxis `else`, que significa en inglés _"en otro caso"_ o _"de otra manera"_. La palabra `else` se debe de poner después de cerrar el bloque del `if`, e inaugura un nuevo bloque.
 
