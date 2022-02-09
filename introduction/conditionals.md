@@ -55,7 +55,7 @@ Donde _A_ es la **condición** y siempre es una expresión booleana. Mientras qu
 
 Si vemos esto como un diagrama de flujo:
 
-<img src="img/simple_conditional.svg" alt="Simple conditional" height="400"/>
+<img src="img/conditionals/simple_conditional.svg" alt="Simple conditional" height="400"/>
 
 En sintaxis de Javascript se escribiría como:
 

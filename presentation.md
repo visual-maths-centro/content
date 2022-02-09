@@ -2,19 +2,36 @@
 
 ### Objetivo General
 
-Que el alumno construya un conjunto de herramientas conceptuales, basadas en algunos conceptos matemáticos, que le permitan crear dinámicas y procesos algorítmicos dentro del marco del diseño multimedia.
+Que el alumno construya un conjunto de herramientas conceptuales, basadas en
+algunos conceptos matemáticos, que le permitan crear dinámicas y procesos
+algorítmicos dentro del marco del diseño multimedia.
 
 ### Introducción
 
-Existen dos clichés acerca del aprendizaje de las matemáticas: “son difíciles y aburridas” y “es un mundo separado de la creatividad”. Mientras que lo primero es una opinión subjetiva que depende de condiciones personales; lo segundo es una total falsedad. Todas las áreas que llamamos multimedia: animación, diseño interactivo, arte generativo, etc, están apoyadas intrínsecamente en las Matemáticas. Es común que quien quiera profundizar en estas áreas halle la frustración de no sentirse capaz de entender los aspectos técnicos subyacentes, y caer en el primer cliché.
+Existen dos clichés acerca del aprendizaje de las matemáticas: “son difíciles y
+aburridas” y “es un mundo separado de la creatividad”. Mientras que lo primero
+es una opinión subjetiva que depende de condiciones personales; lo segundo es
+una total falsedad. Todas las áreas que llamamos multimedia: animación, diseño
+interactivo, arte generativo, etc, están apoyadas intrínsecamente en las
+Matemáticas. Es común que quien quiera profundizar en estas áreas halle la
+frustración de no sentirse capaz de entender los aspectos técnicos subyacentes,
+y caer en el primer cliché.
 
-Aunque es verdad que existen campos de las Matemáticas que están alejados del Diseño, como el análisis numérico, aquellos que resultan esenciales son muy accesibles teniendo la correcta aproximación. En este curso esperamos echar abajo el primer cliché, usando el enfoque de la práctica sobre la teoría, para que si bien el alumno no “ame” a las matemáticas, al menos las encuentre más amigables y útiles.
+Aunque es verdad que existen campos de las Matemáticas que están alejados del
+Diseño, como el análisis numérico, aquellos que resultan esenciales son muy
+accesibles teniendo la correcta aproximación. En este curso esperamos echar
+abajo el primer cliché, usando el enfoque de la práctica sobre la teoría, para
+que si bien el alumno no “ame” a las matemáticas, al menos las encuentre más
+amigables y útiles.
 
-Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entenderemos las motivaciones que existen desde las áreas creativas para acercarnos a las Matemáticas, después revisaremos la teoría necesaria y por último la implementación en código.
+Para cada tema que estudiemos, seguiremos el siguiente proceso: primero
+entenderemos las motivaciones que existen desde las áreas creativas para
+acercarnos a las Matemáticas, después revisaremos la teoría necesaria y por
+último la implementación en código.
 
 ### Temas y sub-temas
 
-1. [Introducción](introduction.md)
+1. [Introducción](introduction/introduction.md)
    1. ¿Las matemáticas son difíciles?
    2. ¿Las matemáticas ayudan a expresar ideas?
    3. ¿Qué se necesita aprender?
@@ -65,9 +82,12 @@ Para cada tema que estudiemos, seguiremos el siguiente proceso: primero entender
 
 - Vince J. _Mathematics for Computer Graphics_. Springer. 2006.
 - Shiffman D. _The nature of code_. The magic book project. 2012.
-- Pearson M. _Generative art: a practical guide using processing_. Manning. 2011
-- Dunn F, Ian Parberry. _3D math prime for graphics and game development_. Wordware. 2002.
-- Bohnacker H., Groß B., Laub J. _Generative design: visualize, program and create with Processing_. Princeton Architectural Press. 2012
+- Pearson M. _Generative art: a practical guide using processing_. Manning.
+  2011
+- Dunn F, Ian Parberry. _3D math prime for graphics and game development_.
+  Wordware. 2002.
+- Bohnacker H., Groß B., Laub J. _Generative design: visualize, program and create with Processing_.
+  Princeton Architectural Press. 2012
 
 #### Web y videos
 

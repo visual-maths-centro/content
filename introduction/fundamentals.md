@@ -25,9 +25,17 @@ _Javascript_ es un lenguaje de programación ampliamente usado en la web. De hec
 
 _P5.js_ es una biblioteca de Javascript que sirve para crear experiencias visuales y código creativo en la web. Esta inspirado en Processing.
 
+### Lineas de código
+
+### Comentarios
+
+### Console
+
+### Ejercicios
+
 ### Principios de la programación
 
-- [Variables](variables.md)
-- [Condicionales](conditionals.md)
-- [Iteraciones o ciclos](loops.md)
-- [Funciones](functions.md)
+- [Variables](./variables.md)
+- [Condicionales](./conditionals.md)
+- [Iteraciones o ciclos](./loops.md)
+- [Funciones](./functions.md)

@@ -30,8 +30,8 @@ esta basada intrínsecamente en las matemáticas (por aquello de las
 computadoras).
 
 Entonces, la respuesta es: ¡Por su puesto!. Tomemos como ejemplo el siguiente
-[video de Íñigo Quilez](https://www.youtube.com/watch?v=aNR4n0i2ZlM&t=320s&ab_channel=InigoQuilez). Las matemáticas son el puente entre las ideas y el
-mundo digital.
+[video de Íñigo Quilez](https://www.youtube.com/watch?v=aNR4n0i2ZlM&t=320s&ab_channel=InigoQuilez).
+Las matemáticas son el puente entre las ideas y el mundo digital.
 
 #### Actividad 1.1
 
@@ -56,4 +56,4 @@ Leer el artículo [_Mathematics for Computer Graphics_](https://faculty.cc.gatec
 
 ### Fundamentos de la programación
 
-Ver [aquí](fundamentals.md).
+Ver [aquí](./fundamentals.md).
