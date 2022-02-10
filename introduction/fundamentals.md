@@ -27,11 +27,43 @@ _P5.js_ es una biblioteca de Javascript que sirve para crear experiencias visual
 
 ### Lineas de código
 
+Cada línea de código representa una instrucción en el programa, o bien modifica su flujo. Es importante que notes que las líneas están numeradas, esto ayuda para darnos una idea del orden de los pasos.
+
+La mayoría de las instrucciones están encerradas en **bloques de código** delimitados por llaves: `{}`. También deben llevar un punto y coma (`;`) que indica que hemos terminado una instrucción.
+
 ### Comentarios
 
-### Console
+Podemos escribir líneas dentro de nuestro código cuyo propósito es ser leído por humanos y no por la computadora. Esto puede ser útil si queremos dejar notas indicando qué es lo que está queriendo hacer el programa, para referencia a otros programadores o para nuestro yo del futuro.
 
-### Ejercicios
+También es útil, pero no recomendable, usarlo para desactivar código.
+
+Estas líneas deben comenzar con dos diagonales: `\\`.
+
+#### Ejemplo
+
+```js
+// Esto es un comentario
+
+let x = 0;
+// x = 100;
+
+// Calculando el area de un circulo de radio 30
+let PI = 3.1416;
+let radius = 30;
+let area = PI * radius * radius;
+```
+
+Si se desea comentar un párrafo entero, se encierra entre `/*` y `*/`.
+
+#### Ejemplo
+
+```js
+/*
+ Esta es un comentario.
+ Con mucho texto.
+ Lorem ipsum
+*/
+```
 
 ### Principios de la programación
 

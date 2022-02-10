@@ -75,6 +75,25 @@ let myAge = 29;
 let myName = 'Diego';
 ```
 
+### Consola
+
+Una herramienta muy simple pero eficaz para verificar que nuestras variables tienen el valor correcto es imprimir su valor.
+
+Para ello usaremos la sintaxis: `console.log(variable);`. Donde entre los paréntesis pondremos la variable a imprimir.
+
+De hecho se puede imprimir cualquier tipo de mensaje.
+
+#### Ejemplo
+
+```js
+let x = 130;
+console.log(x);
+
+console.log('Hola mundo');
+
+console.log(x + 10);
+```
+
 ### Asignación usando expresiones
 
 También podemos asignar el resultado de una operación aritmética. Antes de asignar el valor, Javascript calculará el resultado de las operaciones. En caso de que la operación involucre alguna variable, primero se sustituye su valor y después se calcula.
