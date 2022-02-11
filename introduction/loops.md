@@ -60,6 +60,8 @@ while (x < width) {
 
 El código completo lo puedes encontrar [aquí](https://codesandbox.io/s/while-lines-rv772).
 
+A cada repetición que hace un ciclo, le llamamos **iteración**.
+
 ### Ciclos infinitos
 
 Recordemos que una característica de los algoritmos es que sean finitos. Tenemos que tener cuidado, porque con los ciclos podemos romper esto.
@@ -81,5 +83,47 @@ Los ciclos son una herramienta poderosa, y _"un gran poder conlleva una gran res
 
 ### Estructura `for`
 
+La mayoría de los ciclos tienen la forma: inicialización de una variable, una condición y la actualización de la variable.
 
-### Dobles iteraciones
+Por ejemplo:
+
+```js
+// Iniciar una variable
+let d = 100;
+
+// Condición
+while (d > 10) {
+  ellipse(300, 300, d, d);
+
+  // Actualización de la variable
+  d = d - 10;
+}
+```
+
+Para que sea más fácil la lectura de estos ciclos, JavaScript tiene la directiva `for`, que sirve para comprimir estos pasos en una sola línea.
+
+#### Sintaxis
+
+La sintaxis del `for` es:
+
+```js
+for (init; condition; update) {
+  // Lineas a repetir
+}
+```
+
+El diagrama de flujo sería:
+
+<img src="../img/loops/for.svg" alt="for" height="520"/>
+
+#### Ejemplo
+
+El ejemplo de las líneas verticales usando `for`, quedaría:
+
+```js
+for (let x = 0; x < width; x += 20) {
+  line(x, 0, x, height);
+}
+```
+
+Puedes encontrar el ejemplo completo [aquí](https://codesandbox.io/s/for-lines-1ht8m).
