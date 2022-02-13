@@ -199,4 +199,60 @@ function getGridY() {
 
 Puedes ver el ejemplo completo [aquí](https://codesandbox.io/s/grid-dots-qfwvz?file=/sketch.js).
 
-### Funciones de primer grado
+### Funciones como valores
+
+JavaScript es un lenguaje muy flexible (a veces es bueno, a veces no tanto). Una de las cosas muy buenas que tiene es que las funciones son tratadas como otro _tipo de dato_.
+Es decir, pueden ser:
+
+* Asignadas a una variable.
+* Pasadas como un argumento a otra función.
+* Regresadas por una función.
+
+Por lo tanto, la siguiente expresión es valida en JavaScript:
+
+```js
+let sayHello = function () {
+  console.log("hello world");
+};
+
+sayHello();
+```
+
+En este ejemplo, asignamos a una variable una función. Cuando una función no tiene nombre decimos que es **anónima**.
+
+#### Ejemplo
+
+```js
+function draw() {
+  background(220);
+
+  drawOnMouse(drawSquare);
+  drawOnMouse(drawCircle);
+  drawOnMouse(function () {
+    fill(random(255));
+    circle(0, 0, random(75, 100));
+  });
+}
+
+function drawOnMouse(drawFunction) {
+  push();
+  translate(mouseX, mouseY);
+  drawFunction();
+  pop();
+}
+
+function drawSquare() {
+  rectMode(CENTER);
+  fill(20, 10, 255);
+  square(0, 0, 200);
+}
+
+function drawCircle() {
+  fill(255, 0, 0);
+  circle(0, 0, 175);
+}
+```
+
+En este ejemplo tenemos la función `drawOnMouse` que recibe una función como argumento. Y en `draw`, la invocamos con dos funciones definidas y con una función anónima como argumentos.
+
+El ejemplo completo lo puedes encontrar [aquí](https://codesandbox.io/s/first-class-fn-htshi).
