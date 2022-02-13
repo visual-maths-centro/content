@@ -126,6 +126,77 @@ Puedes encontrar el ejemplo completo [aquí](https://codesandbox.io/s/eyes-funct
 
 ### Regreso de valores
 
-### Las funciones `setup` y `draw`
+Para completar el modelo IPO, hace falta aprender como una función regresa un valor. Son equivalentes las frases: _"valor de regreso"_ y _"valor de salida"_.
+
+Para regresar un valor usamos la palabra `return`.
+
+```js
+function name(args) {
+  // Código de la función
+
+  return value;
+}
+```
+
+Podemos regresar una valor literal como `return 10;`. O podemos regresar el valore de una variable: `return variable;`.
+
+#### Ejemplo
+
+```js
+// Función que regresa el mínimo de dos números
+function min(a, b) {
+  if (a < b) {
+    return a;
+  }
+
+  return b;
+}
+
+// Función que convierte el código de país a su nombre
+function countryName (countryCode) {
+  if (countryCode === 'MX') {
+    return 'Mexico';
+  } else if (countryCode === 'US') {
+    return 'United States';
+  }
+
+  return 'Unknown';
+}
+```
+
+#### Algunas notas
+
+* La instrucción `return` será la ultima en ejecutarse de la función.
+* Si hay más líneas debajo de `return`, estas no se ejecutarán.
+* Una función puede no regresar ningún valor. En cuyo caso se puede usar `return` solo.
+
+#### Ejemplo
+
+```js
+function draw() {
+  if (!mouseIsPressed) {
+    return;
+  }
+
+  let x = getGridX();
+  let y = getGridY();
+
+  noStroke();
+  fill(random(130, 200), 90, 60);
+  circle(x, y, 20);
+}
+
+function getGridX() {
+  let stepX = width / n;
+  return floor(mouseX / stepX) * stepX;
+}
+
+function getGridY() {
+  let stepY = width / n;
+  return floor(mouseY / stepY) * stepY;
+}
+```
+
+Puedes ver el ejemplo completo [aquí](https://codesandbox.io/s/grid-dots-qfwvz?file=/sketch.js).
 
 ### Funciones de primer grado
