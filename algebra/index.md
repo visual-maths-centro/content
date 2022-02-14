@@ -56,15 +56,51 @@ Una vez entendido que las letras pueden abstraer una cantidad, podemos crear exp
 
 Imaginemos que voy al tianguis y veo que la verdura tiene un descuento del 30% de descuento. El kilo de limones esta en $20 pesos, por lo tanto el descuento si compro un kilo es:
 
-<img src="https://render.githubusercontent.com/render/math?math=descuento = 0.3 * 20 = 6" alt="descuento" height="20"/>
+<img src="https://render.githubusercontent.com/render/math?math=descuento = 0.3 * 20 = 6" alt="descuento" height="18"/>
 
 Si yo generalizo el descuento para cualquier porcentaje y cualquier verdura puedo escribirlo como:
 
-<img src="https://render.githubusercontent.com/render/math?math=d = p * x" alt="descuento" height="30"/>
+<img src="https://render.githubusercontent.com/render/math?math=d = p * x" alt="descuento" height="28"/>
 
 Si d es el descuento, p es el porcentaje y x es el precio de la verdura.
 
+Esta es una expresión algebraica. En ellas se usan símbolos para representar cantidades y operaciones. Los símbolos que mas comúnmente se usan son las letras: x, y, z para cantidades desconocidas o variables; y a, b, c para cantidades conocidas o constantes.
+
+#### Ejemplo
+
+Si pasamos la expresión coloquial:
+
+> Se necesita repartir $310 entre tres personas de modo que la segunda reciba $20 menos que la primera y $40 mas que la tercera.
+
+Entonces tenemos que identificar las cantidades y asignar símbolos. El dinero de las tres personas serán: a, b y c.
+
+<img src="https://render.githubusercontent.com/render/math?math=310%20%3D%20a%20%2B%20b%20%2B%20c" height="18"/>
+
+Luego, por el enunciado sabemos que:
+
+<img src="https://render.githubusercontent.com/render/math?math=b = a - 20" height="18"/>
+
+<img src="https://render.githubusercontent.com/render/math?math=b%20%3D%20c%20%2B%2040" height="18"/>
+
+De aquí podemos determinar que:
+
+<img src="https://render.githubusercontent.com/render/math?math=a%20%3D%20b%20%2B%2020" height="18"/>
+
+<img src="https://render.githubusercontent.com/render/math?math=c = b - 40" height="18"/>
+
+Y de aquí:
+
+<img src="https://render.githubusercontent.com/render/math?math=a = 130" height="18"/>
+
+<img src="https://render.githubusercontent.com/render/math?math=b = 110" height="18"/>
+
+<img src="https://render.githubusercontent.com/render/math?math=c = 70" height="18"/>
+
 ### Operaciones aritméticas y sus propiedades
+
+Todas las manipulaciones hechas en el ejemplo anterior obedecen a las propiedades de las operaciones aritméticas básicas.
+
+Para repasar estas propiedades las enumeraremos.
 
 #### Suma
 
