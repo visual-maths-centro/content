@@ -2,7 +2,7 @@
 
 ### Objetivo de la Unidad
 
-Repasar los conceptos básicos del álgebra y usarla como herramienta para abstraer ideas visuales en operaciones numéricas.
+Repasar los conceptos básicos del álgebra y usarla como herramienta para abstraer ideas visuales en operaciones numéricas como el manejo de rangos.
 
 ### ¿Que estudian las Matemáticas?
 
@@ -64,45 +64,26 @@ Si yo generalizo el descuento para cualquier porcentaje y cualquier verdura pued
 
 Si d es el descuento, p es el porcentaje y x es el precio de la verdura.
 
-Esta es una expresión algebraica. En ellas se usan símbolos para representar cantidades y operaciones. Los símbolos que mas comúnmente se usan son las letras: x, y, z para cantidades desconocidas o variables; y a, b, c para cantidades conocidas o constantes.
+Esta es una **expresión algebraica**. En ellas se usan símbolos para representar cantidades y operaciones. Los símbolos que mas comúnmente se usan son las letras: x, y, z para cantidades desconocidas o variables; y a, b, c para cantidades conocidas o constantes.
 
-#### Ejemplo
+### Operaciones básicas y sus propiedades
 
-Si pasamos la expresión coloquial:
-
-> Se necesita repartir $310 entre tres personas de modo que la segunda reciba $20 menos que la primera y $40 mas que la tercera.
-
-Entonces tenemos que identificar las cantidades y asignar símbolos. El dinero de las tres personas serán: a, b y c.
-
-<img src="https://render.githubusercontent.com/render/math?math=310%20%3D%20a%20%2B%20b%20%2B%20c" height="18"/>
-
-Luego, por el enunciado sabemos que:
-
-<img src="https://render.githubusercontent.com/render/math?math=b = a - 20" height="18"/>
-
-<img src="https://render.githubusercontent.com/render/math?math=b%20%3D%20c%20%2B%2040" height="18"/>
-
-De aquí podemos determinar que:
-
-<img src="https://render.githubusercontent.com/render/math?math=a%20%3D%20b%20%2B%2020" height="18"/>
-
-<img src="https://render.githubusercontent.com/render/math?math=c = b - 40" height="18"/>
-
-Y de aquí:
-
-<img src="https://render.githubusercontent.com/render/math?math=a = 130" height="18"/>
-
-<img src="https://render.githubusercontent.com/render/math?math=b = 110" height="18"/>
-
-<img src="https://render.githubusercontent.com/render/math?math=c = 70" height="18"/>
-
-### Operaciones aritméticas y sus propiedades
-
-Todas las manipulaciones hechas en el ejemplo anterior obedecen a las propiedades de las operaciones aritméticas básicas.
-
-Para repasar estas propiedades las enumeraremos.
+A continuación revisaremos las operaciones básicas usadas en las expresiones algebraicas y sus propiedades.
 
 #### Suma
+
+La suma se usa para agregar cantidades. Visualmente, cuando hablamos de posiciones, está relacionada con "mover" o "empujar" un _offset_.
+
+En matemáticas y en programación se usa el signo `+`.
+
+#### Propiedades
+
+Sean _a_ y _b_ dos números cualesquiera.
+
+1. <img src="https://render.githubusercontent.com/render/math?math=a%20%3D%20a%20%2B%200" height="15" />
+2. _(Simetría)_ <img src="https://render.githubusercontent.com/render/math?math=a%20%2B%20b%20%3D%20b%20%2B%20a" height="15" />
+3. _(Asociatividad)_ <img src="https://render.githubusercontent.com/render/math?math=a%20%2B%20(b%20%2B%20c)%20%3D%20(a%20%2B%20b)%20%2B%20c" height="15" />
+4. Si <img src="https://render.githubusercontent.com/render/math?math=a = b" height="15" />, entonces <img src="https://render.githubusercontent.com/render/math?math=a%20%2B%20c%20%3D%20b%20%2B%20c" height="15" />.
 
 #### Resta
 
