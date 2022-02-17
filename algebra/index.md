@@ -68,71 +68,7 @@ Esta es una **expresión algebraica**. En ellas se usan símbolos para represent
 
 ### Operaciones básicas y sus propiedades
 
-A continuación revisaremos las operaciones básicas usadas en las expresiones algebraicas y sus propiedades.
-
-#### Suma
-
-La suma se usa para agregar cantidades. Visualmente, cuando hablamos de posiciones, está relacionada con "mover" o "empujar" un _offset_.
-
-En matemáticas y en programación se usa el signo `+`.
-
-#### Propiedades
-
-Sean _a_, _b_ y _c_ tres números cualesquiera.
-
-1. <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;&plus;&space;0&space;=&space;a" title="\inline a + 0 = a" />
-2. _(Simetría)_ <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;&plus;&space;b&space;=&space;b&space;&plus;&space;a" title="\inline a + b = b + a" />
-3. _(Asociatividad)_ <img src="https://latex.codecogs.com/svg.image?a&space;&plus;&space;(b&space;&plus;&space;c)&space;=&space;(a&space;&plus;&space;b)&space;&plus;&space;c" title="a + (b + c) = (a + b) + c" />
-4. Si <img src="https://latex.codecogs.com/svg.image?a&space;=&space;b" title="a = b" />, entonces <img src="https://latex.codecogs.com/svg.image?a&space;&plus;&space;c&space;=&space;b&space;&plus;&space;c" title="a + c = b + c" />.
-
-#### Resta
-
-La resta es usada para disminuir cantidades, pero también sirve es una medida para determinar que tan diferentes son dos cantidades. De ahí que también se llame "la diferencia".
-
-Por ejemplo, el 8 esta a 1 de ser diferente del 9.
-
-En matemáticas y en programación su símbolo es `-`.
-
-#### Propiedades
-
-Sean _a_, _b_ y _c_ tres números cualesquiera.
-
-1. <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;-&space;0&space;=&space;a" title="\inline a - 0 = a" />
-2. <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;-&space;b&space;=&space;a&space;&plus;&space;(-b)" title="\inline a - b = a + (-b)" />
-3. Si <img src="https://latex.codecogs.com/svg.image?a&space;=&space;b" title="a = b" />, entonces <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;-&space;c&space;=&space;b&space;-&space;c" title="\inline a - c = b - c" />.
-
-#### Multiplicación
-
-La multiplicación esta relacionada con "escalar" una cantidad.
-
-La notación de la multiplicación en matemáticas se simboliza omitiendo el símbolo, o con paréntesis: <img src="https://latex.codecogs.com/svg.image?\inline&space;2x" title="\inline 2x" /> o <img src="https://latex.codecogs.com/svg.image?\inline&space;a(b)(c)" title="\inline a(b)(c)" />.
-
-En programación, se usa el asterisco `*`: `2 * x` o `a * b * c`.
-
-### Propiedades
-
-Sean _a_, _b_ y _c_ tres números cualesquiera.
-
-1. <img src="https://latex.codecogs.com/svg.image?\inline&space;a0&space;=&space;0" title="\inline a0 = 0" />.
-2. <img src="https://latex.codecogs.com/svg.image?\inline&space;a1&space;=&space;a" title="\inline a1 = a" />.
-3. <img src="https://latex.codecogs.com/svg.image?\inline&space;ab&space;=&space;ba" title="\inline ab = ba" />.
-4. <img src="https://latex.codecogs.com/svg.image?\inline&space;a(bc)&space;=&space;(ab)c" title="\inline a(bc) = (ab)c" />.
-5. <img src="https://latex.codecogs.com/svg.image?\inline&space;a(b&space;&plus;&space;c)&space;=&space;ab&space;&plus;&space;ac" title="\inline a(b + c) = ab + ac" />.
-6. Si <img src="https://latex.codecogs.com/svg.image?a&space;=&space;b" title="a = b" />, entonces <img src="https://latex.codecogs.com/svg.image?\inline&space;ac&space;=&space;bc" title="\inline ac = bc" />.
-
-#### División
-
-#### Propiedades
-
-Sean _a_, _b_, _c_ y _d_ cuatro números cualesquiera.
-
-1. <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{1}&space;=&space;a" title="\inline \frac{a}{1} = a" />.
-2. <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{a}&space;=&space;1" title="\inline \frac{a}{a} = 1" />.
-3. <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{b}&space;&plus;&space;\frac{c}{d}&space;=&space;\frac{ad&space;&plus;&space;bc}{bd}" title="\inline \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}" />.
-4. <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{b}&space;-&space;\frac{c}{d}&space;=&space;\frac{ad&space;-&space;bc}{bd}" title="\inline \frac{a}{b} - \frac{c}{d} = \frac{ad - bc}{bd}" />.
-5. <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{b}\frac{c}{d}&space;=&space;\frac{ac}{bd}" title="\inline \frac{a}{b}\frac{c}{d} = \frac{ac}{bd}" />.
-6. <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{\frac{a}{b}}{\frac{c}{d}}&space;=&space;\frac{ad}{bc}" title="\inline \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{ad}{bc}" />.
-7. Si <img src="https://latex.codecogs.com/svg.image?a&space;=&space;b" title="a = b" />, entonces <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{c}&space;=&space;\frac{b}{c}" title="\inline \frac{a}{c} = \frac{b}{c}" />.
+[Aquí](./operations.md) el contenido de este tema.
 
 ### Ecuaciones de primer grado
 
