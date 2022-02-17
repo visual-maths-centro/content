@@ -80,10 +80,10 @@ En matemáticas y en programación se usa el signo `+`.
 
 Sean _a_ y _b_ dos números cualesquiera.
 
-1. <img src="https://render.githubusercontent.com/render/math?math=a%20%3D%20a%20%2B%200" height="15" />
-2. _(Simetría)_ <img src="https://render.githubusercontent.com/render/math?math=a%20%2B%20b%20%3D%20b%20%2B%20a" height="15" />
-3. _(Asociatividad)_ <img src="https://render.githubusercontent.com/render/math?math=a%20%2B%20(b%20%2B%20c)%20%3D%20(a%20%2B%20b)%20%2B%20c" height="15" />
-4. Si <img src="https://render.githubusercontent.com/render/math?math=a = b" height="15" />, entonces <img src="https://render.githubusercontent.com/render/math?math=a%20%2B%20c%20%3D%20b%20%2B%20c" height="15" />.
+1. <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;&plus;&space;0&space;=&space;a" title="\inline a + 0 = a" />
+2. _(Simetría)_ <img src="https://latex.codecogs.com/svg.image?\inline&space;a&space;&plus;&space;b&space;=&space;b&space;&plus;&space;a" title="\inline a + b = b + a" />
+3. _(Asociatividad)_ <img src="https://latex.codecogs.com/svg.image?a&space;&plus;&space;(b&space;&plus;&space;c)&space;=&space;(a&space;&plus;&space;b)&space;&plus;&space;c" title="a + (b + c) = (a + b) + c" />
+4. Si <img src="https://latex.codecogs.com/svg.image?a&space;=&space;b" title="a = b" />, entonces <img src="https://latex.codecogs.com/svg.image?a&space;&plus;&space;c&space;=&space;b&space;&plus;&space;c" title="a + c = b + c" />.
 
 #### Resta
 
