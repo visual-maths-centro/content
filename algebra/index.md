@@ -68,7 +68,7 @@ Esta es una **expresión algebraica**. En ellas se usan símbolos para represent
 
 ### Operaciones básicas y sus propiedades
 
-[Aquí](./operations.md) el contenido de este tema.
+El contenido de este tema [aquí](./operations.md).
 
 ### Ecuaciones de primer grado
 
