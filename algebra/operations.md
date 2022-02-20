@@ -8,6 +8,8 @@ La suma se usa para agregar cantidades. Visualmente, cuando hablamos de posicion
 
 En matemáticas y en programación se usa el signo `+`.
 
+https://user-images.githubusercontent.com/2686914/154769575-46f3157b-907c-482b-b1ac-cd173279b88e.mp4
+
 #### Propiedades
 
 Sean _a_, _b_ y _c_ tres números cualesquiera.
