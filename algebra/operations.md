@@ -12,6 +12,8 @@ https://user-images.githubusercontent.com/2686914/154769575-46f3157b-907c-482b-b
 
 En el caso de un rango de números, si _x_ está entre _a_ y _b_, al sumar una cantidad, estamos "recorriendo" todos los números.
 
+https://user-images.githubusercontent.com/2686914/154863728-8e993a82-b189-4613-83a9-c78c0d220523.mp4
+
 #### Propiedades
 
 Sean _a_, _b_ y _c_ tres números cualesquiera.
