@@ -4,11 +4,13 @@ A continuación revisaremos las operaciones básicas usadas en las expresiones a
 
 ### Suma
 
-La suma se usa para agregar cantidades. Visualmente, cuando hablamos de posiciones, está relacionada con "mover" o "empujar" un _offset_.
+La suma se usa para agregar cantidades. También está relacionada con "mover" o "empujar" un _offset_.
 
-En matemáticas y en programación se usa el signo `+`.
+En matemáticas y en programación se usa el signo _+_.
 
 https://user-images.githubusercontent.com/2686914/154769575-46f3157b-907c-482b-b1ac-cd173279b88e.mp4
+
+En el caso de un rango de números, si _x_ está entre _a_ y _b_, al sumar una cantidad, estamos "recorriendo" todos los números.
 
 #### Propiedades
 
