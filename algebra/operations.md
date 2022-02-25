@@ -10,7 +10,7 @@ En matemáticas y en programación se usa el signo _+_.
 
 https://user-images.githubusercontent.com/2686914/154769575-46f3157b-907c-482b-b1ac-cd173279b88e.mp4
 
-En el caso de un rango de números, si _x_ está entre _a_ y _b_, al sumar una cantidad, estamos "recorriendo" todos los números.
+En el caso de un rango de números que están entre _a_ y _b_, al sumar una cantidad, estamos "recorriendo" todos los números del rango.
 
 https://user-images.githubusercontent.com/2686914/154863728-8e993a82-b189-4613-83a9-c78c0d220523.mp4
 
@@ -27,9 +27,13 @@ Sean _a_, _b_ y _c_ tres números cualesquiera.
 
 La resta es usada para disminuir cantidades, pero también sirve es una medida para determinar que tan diferentes son dos cantidades. De ahí que también se llame "la diferencia".
 
-Por ejemplo, el 8 esta a 1 de ser diferente del 9.
+En matemáticas y en programación su símbolo es _-_.
 
-En matemáticas y en programación su símbolo es `-`.
+Igual que la suma, visualmente lo podemos relacionar con mover, o empujar pero en el sentido contrario.
+
+Con la resta, podemos determinar la longitud de un rango de números.
+
+<img src="../img/algebra/len-range.png" width="85%"/>
 
 #### Propiedades
 
