@@ -66,6 +66,14 @@ Sean _a_, _b_ y _c_ tres números cualesquiera.
 
 ### División
 
+El significado clásico de la división es la de "repartir" o "distribuir" una cantidad sobre otra. También se le conoce como la operación inversa a la multiplicación.
+
+En matemáticas usamos la notación <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{a}{b}&space;" title="\inline \frac{a}{b}" />, mientras que en código, se usa `/`: `a / b`.
+
+A la cantidad a repartir se le conoce como numerador, y a la cantidad entre la que se reparte es el denominador.
+
+El denominador NUNCA puede ser _0_.
+
 #### Propiedades
 
 Sean _a_, _b_, _c_ y _d_ cuatro números cualesquiera.
