@@ -45,11 +45,13 @@ Sean _a_, _b_ y _c_ tres números cualesquiera.
 
 ### Multiplicación
 
-La multiplicación esta relacionada con "escalar" una cantidad.
+La multiplicación esta relacionada con "escalar" una cantidad, puede ser que ampliemos la cantidad, o la reduzcamos.
 
-La notación de la multiplicación en matemáticas se simboliza omitiendo el símbolo, o con paréntesis: <img src="https://latex.codecogs.com/svg.image?\inline&space;2x" title="\inline 2x" /> o <img src="https://latex.codecogs.com/svg.image?\inline&space;a(b)(c)" title="\inline a(b)(c)" />.
+La notación de la multiplicación en matemáticas se simboliza omitiendo el símbolo, o con paréntesis: <img src="https://latex.codecogs.com/svg.image?\inline&space;2x" title="\inline 2x" /> o <img src="https://latex.codecogs.com/svg.image?\inline&space;a(b)(c)" title="\inline a(b)(c)" />. Mientras que en programación, se usa el asterisco `*`: `2 * x` o `a * b * c`.
 
-En programación, se usa el asterisco `*`: `2 * x` o `a * b * c`.
+Cuando multiplicamos un rango, lo podemos ampliar o reducir por un factor.
+
+https://user-images.githubusercontent.com/2686914/155642053-bef7ceb6-d062-417e-93d2-ccad58027aff.mp4
 
 #### Propiedades
 
