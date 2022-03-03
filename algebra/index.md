@@ -66,10 +66,8 @@ Si d es el descuento, p es el porcentaje y x es el precio de la verdura.
 
 Esta es una **expresión algebraica**. En ellas se usan símbolos para representar cantidades y operaciones. Los símbolos que mas comúnmente se usan son las letras: x, y, z para cantidades desconocidas o variables; y a, b, c para cantidades conocidas o constantes.
 
-### Operaciones básicas y sus propiedades
+### [Operaciones básicas y sus propiedades](./operations.md)
 
-El contenido de este tema [aquí](./operations.md).
+### [Ecuaciones de primer grado](./equations.md)
 
-### Ecuaciones de primer grado
-
-### Rangos de números
+### [Rangos de números](./ranges.md)
