@@ -34,11 +34,6 @@ acercarnos a las Matemáticas, después revisaremos la teoría necesaria y por
 ### Temas y sub-temas
 
 1. [Introducción](introduction/index.md)
-   1. ¿Las matemáticas son difíciles?
-   2. ¿Las matemáticas ayudan a expresar ideas?
-   3. ¿Qué se necesita aprender?
-   4. Git
-   5. Fundamentos de la programación
 2. [Álgebra](algebra/index.md)
    1. ¿Que es el álgebra?
    2. Operaciones aritméticas y sus propiedades
