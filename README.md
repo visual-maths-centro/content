@@ -35,9 +35,6 @@ acercarnos a las Matemáticas, después revisaremos la teoría necesaria y por
 
 1. [Introducción](introduction/index.md)
 2. [Álgebra](algebra/index.md)
-   1. ¿Que es el álgebra?
-   2. Operaciones aritméticas y sus propiedades
-   3. Ecuaciones de primer grado
 3. [Vectores](vectors.md)
    1. Concepto de vector
    2. Operaciones básicas
