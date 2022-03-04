@@ -43,3 +43,10 @@ Recordemos que la forma de resolver una ecuación de primer grado es "despejando
 - Por _D7_, <img src="https://latex.codecogs.com/svg.image?\inline&space;-\frac{2}{3}&space;=&space;\frac{3x}{3}" title="\inline -\frac{2}{3} = \frac{3x}{3}" />.
 - Por _D5_ y simplificando, <img src="https://latex.codecogs.com/svg.image?\inline&space;-\frac{2}{3}&space;=&space;(\frac{3}{3})(\frac{x}{1})&space;=&space;1(\frac{x}{1})" title="\inline -\frac{2}{3} = (\frac{3}{3})(\frac{x}{1}) = 1(\frac{x}{1})" />.
 - Finalmente, <img src="https://latex.codecogs.com/svg.image?\inline&space;x&space;=&space;-\frac{2}{3}" title="\inline x = -\frac{2}{3}" />.
+
+#### Ejemplo 3
+
+<img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{2x}{5}&space;-&space;\frac{1}{5}&space;=&space;\frac{6x}{5}" title="\inline \frac{2x}{5} - \frac{1}{5} = \frac{6x}{5}" />.
+
+- Por _R3_, <img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{2x}{5}&space;-&space;\frac{1}{5}&space;-&space;\frac{2x}{5}&space;=&space;\frac{6x}{5}&space;-&space;\frac{2x}{5}" title="\inline \frac{2x}{5} - \frac{1}{5} - \frac{2x}{5} = \frac{6x}{5} - \frac{2x}{5}" />.
+- Por _D4_ y simplificando, <img src="https://latex.codecogs.com/svg.image?\inline&space;-\frac{1}{5}&space;=&space;\frac{30x&space;-&space;10x}{25}&space;=&space;\frac{20x}{25}" title="\inline -\frac{1}{5} = \frac{30x - 10x}{25} = \frac{20x}{25}" />.
