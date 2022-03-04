@@ -20,6 +20,26 @@ El valor que hace que la condición se cumpla, es cuando _x = 5_.
 
 Este curso ya asumimos que existe un conocimiento básico de cómo resolver ecuaciones.
 
-Y solo resolveremos algunas ecuaciones a modo de repaso, identificando cuales propiedades justifican las manipulaciones de la ecuación.
+Y solo resolveremos algunas ecuaciones a modo de repaso, identificando cuales propiedades de las operaciones justifican las manipulaciones de la ecuación.
 
 #### Ejemplo 1
+
+<img src="https://latex.codecogs.com/svg.image?x&space;&plus;&space;1&space;=&space;4" title="x + 1 = 4" />
+
+Recordemos que la forma de resolver una ecuación de primer grado es "despejando" la incógnita. Esto significa que dejemos _x_ en un lado de la igualdad.
+
+- Por _R3_, <img src="https://latex.codecogs.com/svg.image?x&space;&plus;&space;1&space;-&space;1&space;=&space;4&space;-&space;1" title="x + 1 - 1 = 4 - 1" />.
+- Simplificando, <img src="https://latex.codecogs.com/svg.image?\inline&space;x&space;&plus;&space;0&space;=&space;3" title="\inline x + 0 = 3" />.
+- Por _S1_, <img src="https://latex.codecogs.com/svg.image?\inline&space;x&space;=&space;3" title="\inline x = 3" />.
+
+#### Ejemplo 2
+
+<img src="https://latex.codecogs.com/svg.image?\inline&space;-2(1&space;&plus;&space;x)&space;=&space;x" title="\inline -2(1 + x) = x" />
+
+- Por _M5_, <img src="https://latex.codecogs.com/svg.image?\inline&space;-2&space;-&space;2x&space;=&space;x&space;" title="\inline -2 - 2x = x " />.
+- Por _S4_, <img src="https://latex.codecogs.com/svg.image?\inline&space;-2&space;-&space;2x&space;&plus;&space;2x&space;=&space;x&space;&plus;&space;2x" title="\inline -2 - 2x + 2x = x + 2x" />.
+- Simplificando, <img src="https://latex.codecogs.com/svg.image?\inline&space;-2&space;-&space;0&space;=&space;3x" title="\inline -2 - 0 = 3x" />.
+- Por _R1_, <img src="https://latex.codecogs.com/svg.image?\inline&space;-2&space;=&space;3x" title="\inline -2 = 3x" />.
+- Por _D7_, <img src="https://latex.codecogs.com/svg.image?\inline&space;-\frac{2}{3}&space;=&space;\frac{3x}{3}" title="\inline -\frac{2}{3} = \frac{3x}{3}" />.
+- Por _D5_ y simplificando, <img src="https://latex.codecogs.com/svg.image?\inline&space;-\frac{2}{3}&space;=&space;(\frac{3}{3})(\frac{x}{1})&space;=&space;1(\frac{x}{1})" title="\inline -\frac{2}{3} = (\frac{3}{3})(\frac{x}{1}) = 1(\frac{x}{1})" />.
+- Finalmente, <img src="https://latex.codecogs.com/svg.image?\inline&space;x&space;=&space;-\frac{2}{3}" title="\inline x = -\frac{2}{3}" />.
